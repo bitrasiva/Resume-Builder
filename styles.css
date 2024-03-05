@@ -1,0 +1,110 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* Personal information section */
+#personal-info {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#personal-info label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#personal-info input[type="text"],
+#personal-info input[type="email"],
+#personal-info textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Work experience section */
+#work-experience {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#work-experience label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#work-experience input[type="text"],
+#work-experience input[type="date"],
+#work-experience textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Education section */
+#education {
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
